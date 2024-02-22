@@ -1,0 +1,72 @@
+body {
+  background-image: linear-gradient(#3b1566, #5f4da8);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d6d6ea;
+  box-sizing: border-box;
+}
+
+#container-aplicativos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5f4da8;
+}
+
+.music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+#informacoes-faixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+#anterior, #proximo {
+  font-size: 2.5rem;
+}
+
+#play-pause {
+  font-size: 3.5rem;
+}
+
+#container-botoes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+#progress-bar-container {
+  width: 100%;
+  background-color: #ccc;
+  height: 20px;
+}
+
+#progress-bar {
+  background-color: #007bff;
+  height: 100%;
+  width: 0;
+  transition: width 0.3s ease;
+}
