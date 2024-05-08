@@ -13,7 +13,7 @@ Este é um simples AudioBook interativo e intuitivo, criado com a utilização d
 ## Como Usar
 
 1. Abra o arquivo `index.html` em seu navegador.
-2. Você verá uma lista de músicas disponíveis.
+2. Você verá uma lista de audios disponíveis.
 3. Clique no botão de play para começar a tocar o audio.
 4. Use os botões de avançar e retroceder para navegar.
 5. Aproveite!
